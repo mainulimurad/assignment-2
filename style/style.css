@@ -222,6 +222,230 @@ header{
     object-fit: cover;
 }
 
+.bmi-calculator{
+    padding: 30px 0;
+    padding-left: 80px;
+}
+
+.bmi{
+    padding: 80px 0;
+    background-color:#222;
+}
+
+.bmi-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table-heading{
+    color: #fff;
+    font-size: 25px;
+}
+
+.bmi-heading{
+    color: #fff;
+    font-size: 25px;
+}
+
+.bmi-table{
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+tr, th, td{
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form .half{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+form, input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff2e;
+    
+}
+
+select, option{
+    background-color: #00000092;
+    color: #ffffff2e;
+}
+
+input{
+    width: 200px;
+}
+
+.gender{
+    width: 220px !important;
+}
+
+.activity{
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+
+
+.form-element{
+    background-color: #ffffff35;
+}
+
+.our-program{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.program-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px; 
+}
+
+.program-text-container{
+    text-align: left;
+}
+
+
+
+.program img{
+    width: 420px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.program-text-container{
+    padding: 20px;
+    background-color: #ffffff2f;
+    margin-top: -10px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+.trainer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff30;
+    border-radius: 15px;
+}
+
+.trainers{
+    padding: 80px 0; 
+    text-align: center;
+    border-radius: 15px;
+}
+
+.trainer{
+    border-radius: 15px; 
+    padding: 0 0 20px 20px;
+}
+
+.trainer-text-container{
+    text-align: left;
+    margin-top: 250px;
+    
+}
+
+.trainer-name{
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.trainer-position{
+    color: #ffffff70;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.trainer-1{
+    background: url(../images/trainer1.png);
+    background-size: cover;
+    background-position: center;
+}
+.trainer-2{
+    background: url(../images/trainer2.png);
+    background-size: cover;
+    background-position: center;
+}
+.trainer-3{
+    background: url(../images/trainer3.png);
+    background-size: cover;
+    background-position: center;
+}
+.trainer-4{
+    background: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+}
+.trainer-5{
+    background: url(../images/trainer5.png);
+    background-size: cover;
+    background-position: center;
+}
+.trainer-6{
+    background: url(../images/trainer6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    padding: 60px 0 0;
+    background-color: #ffffff28;
+}
+
+.text-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 45px;
+}
+
+.logo-brand{
+    color: #E6533C;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-sub-heading{
+    color: #fff;
+    font-size: 22px;
+}
+
+ul li{
+    list-style: none;
+    color: #ffffff7d;
+    margin-top: 10px;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
+
+.hr{
+    color: #ffffff6a;
+}
+
+.copyright{
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
 @media screen and (max-width: 576px) {
 
     header{
@@ -268,10 +492,83 @@ header{
         grid-template-columns: 1fr;
     }
 
-
-
     .run-container-text{
         padding: 20px;
+    }
+
+    .bmi-calculator{
+        padding: 0px 0;
+        padding-left: 0px;
+        margin: 0 10px;
+    }
+
+    .bmi{
+        padding: 40px 10px;
+        background-color:#222;
+    }
+
+    .bmi-container{
+        grid-template-columns: 1fr;
+    }
+
+    .table{
+        padding-bottom: 25px;
+    }
+
+    input{
+        width: 150px;
+    }
+    
+    .gender{
+        width: 170px !important;
+    }
+    
+    .activity{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .our-program{
+        padding: 40px 10px;
+        overflow: hidden;
+    }
+
+    .program-lists{
+        padding: 0;
+    }
+
+    .program-lists{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px; 
+    }
+
+    .program img{
+        width: 100%;
+    }
+    .trainers{
+        padding: 40px 10px;
+    }
+
+    .trainer-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    footer{
+        padding: 40px 10px 0;
+    }
+
+    .text-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 45px;
+    }
+
+    .footer-sub-heading{
+        margin-top: 10px;
     }
 }
 
