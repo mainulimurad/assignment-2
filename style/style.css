@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+}
+
+/* shared css */
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* shared design */
+
+.description{
+    color: #ffffff5b;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 0;
+}
+
+.heading{
+    font-size: 48px;
+    line-height: 55px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.button{
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/* header section design */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.426) 100%);
+    padding-top: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand{
+    color: #E6533C;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-elements{
+    display: flex;
+    border: 1px solid #ffffff29;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.nav-elements li{
+    list-style: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.nav-elements li:hover{
+    background-color: #E6533C;
+    cursor: pointer;
+}
+
+.nav-elements .active{
+    background-color: #E6533C;
+}
+
+.header-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-text{
+    padding: 80px 0 0;
+}
+
+.main-header{
+    font-size: 78px;
+    line-height: 90px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.special-text{
+    font-family: "Miama", sans-serif;
+}
+
+
+
+.button-group{
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.download-app{
+    border: 1px solid #fff;
+    background-color: #ffffff00;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.download-app:hover{
+    cursor: pointer;
+}
+
+.header-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-1{
+    padding: 20px;
+    background-color: #ffffff42;
+    border-radius: 15px;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
+.card-heading{
+    color: #fff;
+    font-size: 40px;
+
+}
+
+.card-text{
+    color: #fff;
+}
+
+.card-2{
+    padding: 20px;
+    background-color: #ffffff42;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.change-habit{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.change-habit-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.change-habit-img{
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.change-habit-box-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+@media screen and (max-width: 576px) {
+
+    header{
+        padding: 0 10px;
+    }
+    .nav-elements{
+        display: none;
+    }
+
+    .header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-header{
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .change-habit{
+        padding: 40px 0;
+    }
+
+    .change-habit-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
