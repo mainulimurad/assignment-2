@@ -201,6 +201,27 @@ header{
     font-weight: 600px;
 }
 
+.run-extra{
+    padding-bottom: 30px;
+}
+
+.run-container{
+    padding: 20px;
+    background-color: #222;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.run-container-text{
+    padding: 50px 40px 0 20px;
+}
+
+.run-extra-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 576px) {
 
     header{
@@ -235,6 +256,22 @@ header{
     .change-habit-container{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .run-extra{
+        padding-bottom: 30px;
+    }
+
+    .run-container{
+        margin: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .run-container-text{
+        padding: 20px;
     }
 }
 
