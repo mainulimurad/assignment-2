@@ -461,8 +461,12 @@ ul li:hover{
 
     .nav-item-mobile{
         display: block;
+    }
+    .nav-item-mobile img {
         width: 30px;
     }
+
+    
 
     .header-content{
         display: grid;
